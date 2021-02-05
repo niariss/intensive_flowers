@@ -257,8 +257,6 @@ text-align: center;
 border: 3px solid #ffffff;
 padding: 33px 35px 30px 35px; 
 margin-top: 27px;
-
-
 }
 
 
@@ -358,6 +356,26 @@ height: 4px;
 background: url('../img/icon/arr.svg') no-repeat center;
 margin-left: 14px;
 vertical-align: middle;
+}
+
+
+.hide-more {
+    font-size: 14px;
+    color: #f24841;
+    display: block;
+    text-align: center;
+    margin-top: 39px;
+    display: none;
+}
+
+.hide-more:after {
+    display: inline-block;
+    content: '';
+    width: 10px;
+    height: 4px;
+    background: url('../img/icon/arr.svg') no-repeat center;
+    margin-left: 14px;
+    vertical-align: middle;
 }
 
 .offer {

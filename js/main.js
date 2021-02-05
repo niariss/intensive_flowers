@@ -73,14 +73,31 @@ $("#review-1").on('click', function() {
 
 
 let more = document.querySelector('.more');
-let flowers = document.querySelector('.flower-none')
+let flowers = document.querySelector('.flower-none');
+let hideMore = document.querySelector('.hide-more');
+let counterButton = document.querySelectorAll('.counter-button');
+let counterInput = document.querySelectorAll('.counter-input');
 
+
+/*for (count of counterButton)
+count.onclick = function () {
+console.log(count.textContent)
+}*/
 
 function openFlowers() {
-  if(flowers.style.display = "none"){
-  flowers.style.display = "flex"
-  more.textContent = "Скрыть цветы"
-  } 
+  flowers.style.display = "flex";
+  hideMore.style.display = "block";
+  more.style.display = "none"
+  
+}
+
+function clouseFlowers() {
+  flowers.style.display = "none";
+  hideMore.style.display = "none";
+  more.style.display = "";
 }
 
  more.addEventListener('click', openFlowers)
+ hideMore.addEventListener('click', clouseFlowers)
+ //counterButton.addEventListener('click', countFlowers)
+
