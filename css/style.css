@@ -536,6 +536,7 @@ letter-spacing: 0.12px;
         padding-bottom: 20px;
         padding-left: 40px;
         padding-right: 40px;
+        margin-top: 25px;
     }
 
     .review-text {
@@ -544,7 +545,8 @@ letter-spacing: 0.12px;
 
     .card {
         max-width: 200px;
-        margin-left: 25%;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
     .card-label {
@@ -555,6 +557,28 @@ letter-spacing: 0.12px;
     .footer-info {
     text-align: left;
     }
+
+    .flower-none {
+     flex-direction: column; 
+    }
+
+    .review {
+        max-width: 65%;
+    }
+
+    .review-image {
+        margin-right: 25%;
+        
+    }
+    .review-link {
+        
+        font-size: 14px;
+    }
+    .footer-white-info {
+        text-align: left;
+    }
+
+
 }
 
 @media (max-width:576px) {
